@@ -1,0 +1,202 @@
+{
+    "jobs": [
+        {
+            "id": 1,
+            "company_name": "ABC Web Solutions",
+            "company_image": "https://example.com/company_images/abc_web_solutions.png",
+            "job_description": "We are seeking a skilled web developer with experience in HTML, CSS, and JavaScript to join our team. The ideal candidate will have a strong portfolio showcasing their expertise in front-end web development.",
+            "job_responsibilities": "Design and develop responsive web pages using HTML, CSS, and JavaScript. Collaborate with cross-functional teams to gather requirements and implement new features. Optimize web pages for performance and SEO. Troubleshoot and debug web issues as needed.",
+            "educational_requirements": "Bachelor's degree in Computer Science, Web Development, or related field.",
+            "experience": "2+ years of experience in front-end web development.",
+            "job_details": {
+                "salary": 60000,
+                "job_title": "Front-end Web Developer"
+            },
+            "contact_info": {
+                "phone": "123-456-7890",
+                "emails": [
+                    "jobs@example.com",
+                    "hr@example.com"
+                ],
+                "address": "1234 Elm Street, Springfield, IL 62704"
+            },
+            "job_type": [
+                "On-site"
+            ]
+        },
+        {
+            "id": 2,
+            "company_name": "XYZ Marketing Agency",
+            "company_image": "https://example.com/company_images/xyz_marketing_agency.png",
+            "job_description": "We are looking for a talented graphic designer to create visually appealing graphics for our marketing materials. The ideal candidate will have a keen eye for detail and be able to translate complex concepts into visually appealing designs.",
+            "job_responsibilities": "Create engaging graphics for marketing materials including social media posts, brochures, and presentations. Collaborate with marketing and content teams to understand requirements and deliver high-quality designs. Revise and update existing designs as needed.",
+            "educational_requirements": "Bachelor's degree in Graphic Design or related field.",
+            "experience": "3+ years of experience in graphic design.",
+            "job_details": {
+                "salary": 50000,
+                "job_title": "Graphic Designer"
+            },
+            "contact_info": {
+                "phone": "987-654-3210",
+                "emails": [
+                    "designjobs@example.com",
+                    "hr@example.com"
+                ],
+                "address": "5678 Oak Street, Anytown, CA 12345"
+            },
+            "job_type": [
+                "On-site",
+                "Remote"
+            ]
+        },
+        {
+            "id": 3,
+            "company_name": "123 Sales Solutions",
+            "company_image": "https://example.com/company_images/123_sales_solutions.png",
+            "job_description": "We are seeking a highly motivated sales representative to join our team. The ideal candidate will have a proven track record of achieving sales targets, excellent communication skills, and the ability to build and maintain relationships with clients.",
+            "job_responsibilities": "Identify and qualify leads, and close sales deals. Build and maintain relationships with clients through regular communication and follow-ups. Meet or exceed monthly sales targets. Provide exceptional customer service and support.",
+            "educational_requirements": "High school diploma or equivalent.",
+            "experience": "2+ years of experience in sales.",
+            "job_details": {
+              "salary": 70000,
+              "job_title": "Sales Representative"
+            },
+            "contact_info": {
+              "phone": "456-789-0123",
+              "emails": ["salesjobs@example.com", "hr@example.com"],
+              "address": "7890 Maple Avenue, Cityville, NY 54321"
+            },
+            "job_type": ["On-site", "Remote"]
+          },
+          {
+            "id": 4,
+            "company_name": "Tech Innovators Inc.",
+            "company_image": "https://example.com/company_images/tech_innovators_inc.png",
+            "job_description": "We are looking for a skilled software engineer to develop and maintain innovative software solutions. The ideal candidate will have strong programming skills, experience with software development methodologies, and a passion for staying up-to-date with the latest industry trends.",
+            "job_responsibilities": "Design, develop, and maintain software applications using programming languages such as Java, C++, or Python. Collaborate with cross-functional teams to gather requirements and implement new features. Perform code reviews and troubleshooting as needed. Stay up-to-date with industry trends and best practices in software development.",
+            "educational_requirements": "Bachelor's degree in Computer Science, Software Engineering, or related field.",
+            "experience": "3+ years of experience in software development.",
+            "job_details": {
+              "salary": 80000,
+              "job_title": "Software Engineer"
+            },
+            "contact_info": {
+              "phone": "789-012-3456",
+              "emails": ["techjobs@example.com", "hr@example.com"],
+              "address": "4567 Cedar Street, Innovation City, CA 67890"
+            },
+            "job_type": ["On-site"]
+          },{
+            "id": 5,
+            "company_name": "Global Logistics Solutions",
+            "company_image": "https://example.com/company_images/global_logistics_solutions.png",
+            "job_description": "We are seeking an experienced logistics coordinator to oversee our global supply chain operations. The ideal candidate will have a strong understanding of logistics and supply chain management, excellent communication skills, and the ability to work in a fast-paced environment.",
+            "job_responsibilities": "Coordinate and manage logistics operations including transportation, warehousing, and inventory management. Monitor and optimize supply chain processes to ensure timely delivery of goods. Communicate and collaborate with vendors, suppliers, and internal teams to resolve logistics issues. Maintain accurate records of shipments, inventory, and logistics-related documentation.",
+            "educational_requirements": "Bachelor's degree in Supply Chain Management, Logistics, or related field.",
+            "experience": "5+ years of experience in logistics and supply chain management.",
+            "job_details": {
+              "salary": 90000,
+              "job_title": "Logistics Coordinator"
+            },
+            "contact_info": {
+              "phone": "123-456-7890",
+              "emails": ["logisticsjobs@example.com", "hr@example.com"],
+              "address": "5678 Oak Street, Logistics City, TX 12345"
+            },
+            "job_type": ["On-site"]
+          },
+          {
+            "id": 6,
+            "company_name": "Digital Marketing Experts",
+            "company_image": "https://example.com/company_images/digital_marketing_experts.png",
+            "job_description": "We are looking for a highly skilled digital marketing specialist to develop and implement effective digital marketing strategies. The ideal candidate will have in-depth knowledge of digital marketing channels, excellent analytical skills, and the ability to drive results.",
+            "job_responsibilities": "Develop and implement digital marketing campaigns across various channels, such as social media, email, SEO, and PPC. Conduct market research and competitor analysis to identify opportunities for growth. Analyze data and performance metrics to optimize campaigns and drive results. Collaborate with cross-functional teams to create compelling content and creative assets.",
+            "educational_requirements": "Bachelor's degree in Marketing, Communications, or related field.",
+            "experience": "3+ years of experience in digital marketing.",
+            "job_details": {
+              "salary": 75000,
+              "job_title": "Digital Marketing Specialist"
+            },
+            "contact_info": {
+              "phone": "456-789-0123",
+              "emails": ["marketingjobs@example.com", "hr@example.com"],
+              "address": "7890 Maple Avenue, Marketing City, CA 67890"
+            },
+            "job_type": ["Remote"]
+          },{
+            "id": 7,
+            "company_name": "Healthcare Solutions Inc.",
+            "company_image": "https://example.com/company_images/healthcare_solutions_inc.png",
+            "job_description": "We are seeking a dedicated and compassionate registered nurse to join our healthcare team. The ideal candidate will have excellent clinical skills, strong communication abilities, and a passion for providing high-quality patient care.",
+            "job_responsibilities": "Assess, plan, implement, and evaluate patient care in accordance with established policies and procedures. Collaborate with interdisciplinary healthcare team members to provide comprehensive patient care. Administer medications and treatments as ordered by physicians. Educate patients and families on healthcare conditions and self-care measures.",
+            "educational_requirements": "Bachelor's degree in Nursing and a valid RN license.",
+            "experience": "2+ years of experience as a registered nurse.",
+            "job_details": {
+              "salary": 65000,
+              "job_title": "Registered Nurse"
+            },
+            "contact_info": {
+              "phone": "789-012-3456",
+              "emails": ["nursejobs@example.com", "hr@example.com"],
+              "address": "1234 Elm Street, Healthcare City, NY 45678"
+            },
+            "job_type": ["On-site"]
+          },
+          {
+            "id": 8,
+            "company_name": "Software Solutions Inc.",
+            "company_image": "https://example.com/company_images/software_solutions_inc.png",
+            "job_description": "We are seeking experienced software engineers to join our dynamic development team. The ideal candidates will have strong coding skills, problem-solving abilities, and the ability to work in an agile environment.",
+            "job_responsibilities": "Design, develop, and test software applications using programming languages and frameworks. Collaborate with cross-functional teams to define software requirements and specifications. Debug and resolve software defects and issues. Participate in code reviews and provide feedback to peers.",
+            "educational_requirements": "Bachelor's degree in Computer Science or related field.",
+            "experience": "3+ years of experience in software development.",
+            "job_details": {
+              "salary": 100000,
+              "job_title": "Software Engineer"
+            },
+            "contact_info": {
+              "phone": "012-345-6789",
+              "emails": ["softwarejobs@example.com", "hr@example.com"],
+              "address": "5678 Pine Avenue, Tech City, CA 78901"
+            },
+            "job_type": ["On-site"]
+          },{
+            "id": 9,
+            "company_name": "Financial Services Group",
+            "company_image": "https://example.com/company_images/financial_services_group.png",
+            "job_description": "We are looking for experienced financial analysts to provide financial insights and analysis for our organization. The ideal candidates will have a strong understanding of financial concepts, excellent analytical skills, and the ability to work in a fast-paced environment.",
+            "job_responsibilities": "Analyze financial data and prepare financial reports, forecasts, and projections. Conduct financial modeling and scenario analysis to support decision-making. Monitor and analyze financial performance against budget and targets. Collaborate with cross-functional teams to provide financial insights and recommendations.",
+            "educational_requirements": "Bachelor's degree in Finance, Accounting, or related field.",
+            "experience": "5+ years of experience in financial analysis or related field.",
+            "job_details": {
+              "salary": 90000,
+              "job_title": "Financial Analyst"
+            },
+            "contact_info": {
+              "phone": "234-567-8901",
+              "emails": ["financejobs@example.com", "hr@example.com"],
+              "address": "7890 Oak Street, Finance City, TX 12345"
+            },
+            "job_type": ["On-site"]
+          },
+          {
+            "id": 10,
+            "company_name": "Digital Marketing Solutions",
+            "company_image": "https://example.com/company_images/digital_marketing_solutions.png",
+            "job_description": "We are seeking skilled digital marketers to develop and implement online marketing strategies for our clients. The ideal candidates will have a strong understanding of digital marketing channels, excellent communication skills, and a track record of successful campaigns.",
+            "job_responsibilities": "Develop and implement digital marketing strategies and campaigns. Conduct market research and competitor analysis to identify opportunities. Create and optimize online advertising campaigns. Analyze campaign performance and provide recommendations for improvement. Collaborate with clients and internal teams to achieve marketing goals.",
+            "educational_requirements": "Bachelor's degree in Marketing, Communications, or related field.",
+            "experience": "3+ years of experience in digital marketing or related field.",
+            "job_details": {
+              "salary": 70000,
+              "job_title": "Digital Marketer"
+            },
+            "contact_info": {
+              "phone": "345-678-9012",
+              "emails": ["marketingjobs@example.com", "hr@example.com"],
+              "address": "9012 Maple Avenue, Marketing City, CA 56789"
+            },
+            "job_type": ["Remote"]
+          }
+    ]
+}
