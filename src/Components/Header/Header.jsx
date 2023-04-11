@@ -6,7 +6,7 @@ const Header = () => {
     return (
         <div className=' mx-auto mt-5 container header-compo'>
             <div className=' flex justify-between items-center'>
-            <h1 className=' text-5xl font-semibold'><span className=' text-blue-700'>Carrier</span> Hunt</h1>
+            <Link to='/home'><h1 className=' text-5xl font-semibold'><span className=' text-blue-700'>Carrier</span> Hunt</h1></Link>
             {/* header nav bar part */}
             <nav className='nav-link'>
                 <Link  to="/statistics"><span className=' text-indigo-700 '>Statistics</span></Link >
