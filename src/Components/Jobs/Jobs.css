@@ -1,0 +1,24 @@
+*{
+    font-family: 'Manrope';
+}
+.jobs-card{
+width: 648px;
+height: 300px;
+/* Dark 06 */
+border: 1px solid #E8E8E8;
+border-radius: 8px;
+}
+.job-button{
+    width: 109px;
+    height: 40px;
+    border-radius: 4px;
+    border: 0.5px solid blueviolet;
+}
+.details-button{
+    width: 157px;
+height: 49px;
+background: linear-gradient(90deg, #7E90FE 0%, #9873FF 100%);
+border-radius: 4px;
+color: white;
+font-size: 20px;
+}
