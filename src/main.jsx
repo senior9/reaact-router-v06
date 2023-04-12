@@ -12,6 +12,9 @@ import JobsData from './Components/JobsData/JobsData';
 import Home from './Components/Home/Home';
 import JobDetails from './Components/JobDetails/JobDetails';
 import Header from './Components/Header/Header';
+import Chart from './Components/Chart/Statistics';
+import Statistics from './Components/Chart/Statistics';
+import AppliedJobs from './AppliedJobs/AppliedJobs';
 
 
 
@@ -47,6 +50,14 @@ const router = createBrowserRouter([
   {
     path: "home",
     element: <Home />,
+  },
+  {
+    path: "applied-jobs",
+    element: <AppliedJobs />,
+  },
+  {
+    path: "statistics",
+    element: <Statistics />,
   },
   {
     path: "job-details/:jobId",
