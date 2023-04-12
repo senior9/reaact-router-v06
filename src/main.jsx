@@ -15,6 +15,8 @@ import Header from './Components/Header/Header';
 import Chart from './Components/Chart/Statistics';
 import Statistics from './Components/Chart/Statistics';
 import AppliedJobs from './AppliedJobs/AppliedJobs';
+import NotFound from './NotFound/NotFound';
+import Blog from './Blog/Blog';
 
 
 
@@ -56,6 +58,10 @@ const router = createBrowserRouter([
     element: <AppliedJobs />,
   },
   {
+    path: "blog",
+    element: <Blog />,
+  },
+  {
     path: "statistics",
     element: <Statistics />,
   },
@@ -77,6 +83,10 @@ const router = createBrowserRouter([
         return { data: null };
       }
     },
+  },
+  {
+    path: "*",
+    element: <NotFound />,
   },
 ]);
 
