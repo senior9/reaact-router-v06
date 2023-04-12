@@ -3,6 +3,7 @@ import "./JobsData.css";
 import { useLoaderData } from "react-router-dom";
 import Jobs from "../Jobs/Jobs";
 
+
 const JobsData = () => {
   const data = useLoaderData();
   const jobsData = data.jobsData.jobs;
@@ -28,7 +29,8 @@ const sliceData = seeAllJobs ? jobsData :jobsData.slice(0,4);
         sliceData.map((job) => <Jobs
         key={job.id}
         job={job}
-        ></Jobs>)
+        ></Jobs>
+        )
       }
       </div>
       {!seeAllJobs && (

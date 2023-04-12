@@ -12,7 +12,7 @@ import JobsData from './Components/JobsData/JobsData';
 import Home from './Components/Home/Home';
 import JobDetails from './Components/JobDetails/JobDetails';
 import Header from './Components/Header/Header';
-import AppliedJobs from './AppliedJobs/AppliedJobs';
+
 
 
 const router = createBrowserRouter([
@@ -45,12 +45,8 @@ const router = createBrowserRouter([
       .then(data => ({ jobsData: data })),
   },
   {
-    path: "/home",
+    path: "home",
     element: <Home />,
-  },
-  {
-    path: "/applied-jobs",
-    element: <AppliedJobs />,
   },
   {
     path: "job-details/:jobId",
