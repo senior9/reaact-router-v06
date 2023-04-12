@@ -1,32 +1,81 @@
-import React from 'react'
+import React, { Children } from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App'
 import './index.css'
 import {
   createBrowserRouter,
+  Outlet,
   RouterProvider,
 } from "react-router-dom";
 import Jobs from './Components/Jobs/Jobs';
 import JobsData from './Components/JobsData/JobsData';
 import Home from './Components/Home/Home';
+import JobDetails from './Components/JobDetails/JobDetails';
+import Header from './Components/Header/Header';
+import AppliedJobs from './AppliedJobs/AppliedJobs';
 
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Home/>,
-    loader : ()=> fetch("data.json") // Fetch the data from data.json
-    .then(response => response.json()) // Parse the response as JSON
-    .then(data => ({ jobsData: data })) // Return the data as an object with the key 'jobsData'
+    element: <Home />,
+    children:[
+      {
+        path: "/home",
+        element: <JobsData />,
+        loader: () => fetch("data.json")
+          .then(response => {
+            if (response.ok) {
+              return response.json();
+            } else {
+              throw new Error("Failed to fetch data");
+            }
+          })
+          .then(data => ({ jobsData: data })),
+      }
+    ],
+    loader: () => fetch("data.json")
+      .then(response => {
+        if (response.ok) {
+          return response.json();
+        } else {
+          throw new Error("Failed to fetch data");
+        }
+      })
+      .then(data => ({ jobsData: data })),
   },
   {
-    path: "jobs-detail",
-    element: <Jobs></Jobs>,
-    
-  }, 
+    path: "/home",
+    element: <Home />,
+  },
+  {
+    path: "/applied-jobs",
+    element: <AppliedJobs />,
+  },
+  {
+    path: "job-details/:jobId",
+    element: <JobDetails />,
+    loader: async ({ params }) => {
+      const { jobId } = params;
+      const res = await fetch("data.json");
+      const text = await res.text();
+      try {
+        const data = JSON.parse(text);
+        const job = data.jobs.find(
+          (job_1) => parseInt(job_1.id) === parseInt(jobId)
+        );
+        return { data: job };
+      } catch (error) {
+        console.error("Error parsing JSON:", error);
+        return { data: null };
+      }
+    },
+  },
 ]);
+
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <RouterProvider router={router} />
-  </React.StrictMode>,
+    <Outlet />
+  </React.StrictMode>
 )

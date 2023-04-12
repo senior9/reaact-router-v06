@@ -3,7 +3,7 @@
 }
 .jobs-card{
 width: 648px;
-height: 300px;
+height: 390px;
 /* Dark 06 */
 border: 1px solid #E8E8E8;
 border-radius: 8px;
@@ -15,7 +15,7 @@ border-radius: 8px;
     border: 0.5px solid blueviolet;
 }
 .details-button{
-    width: 157px;
+width: 157px;
 height: 49px;
 background: linear-gradient(90deg, #7E90FE 0%, #9873FF 100%);
 border-radius: 4px;
@@ -24,5 +24,6 @@ font-size: 20px;
 }
 .job-image img{
     width: 140px;
-    height: 70px
+    height: 70px;
+    line-height: 40px;
 }
