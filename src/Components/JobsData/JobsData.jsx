@@ -24,7 +24,7 @@ const sliceData = seeAllJobs ? jobsData :jobsData.slice(0,4);
         Explore thousands of job opportunities with all the information you
         need. Its your future
       </p>
-      <div className="container mx-auto grid grid-cols-2 gap-5 mt-5">
+      <div className="container card-container mx-auto grid grid-cols-2 gap-5 mt-5">
       {
         sliceData.map((job) => <Jobs
         key={job.id}
