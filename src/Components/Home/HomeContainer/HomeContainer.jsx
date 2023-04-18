@@ -12,7 +12,7 @@ const HomeContainer = () => {
                 <button className='button-one mt-3'>Get Started</button>
             </div>
             <div className='image-part'>
-                <img src="../../../src/assets/All Images//P3OLGJ1 copy 1.png" alt=""/>
+                <img src="../../../assets/All Images/P3OLGJ1 copy 1.png" alt=""/>
             </div>
         </div>
         </div>
