@@ -70,7 +70,7 @@ const Statistics = () => {
     },
   };
   return (
-    <div>
+    <div className=' mt-14'>
       <h2>Assignment Marks Chart</h2>
       <Chart type='bar' data={data} options={options} />
     </div>

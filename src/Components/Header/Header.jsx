@@ -13,7 +13,7 @@ const Header = () => {
         </Link>
         {/* header nav bar part */}
         <nav className="nav-link">
-          <Link to="/home">
+          <Link to="/">
             <span className=" text-indigo-700 ">Home</span>
           </Link>
           <Link to="/statistics">

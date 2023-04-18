@@ -28,7 +28,7 @@ const router = createBrowserRouter([
       {
         path: "/home",
         element: <JobsData />,
-        loader: () => fetch("data.json")
+        loader: () => fetch("/data.json")
           .then(response => {
             if (response.ok) {
               return response.json();
@@ -39,7 +39,7 @@ const router = createBrowserRouter([
           .then(data => ({ jobsData: data })),
       }
     ],
-    loader: () => fetch("data.json")
+    loader: () => fetch("/data.json")
       .then(response => {
         if (response.ok) {
           return response.json();
@@ -50,7 +50,7 @@ const router = createBrowserRouter([
       .then(data => ({ jobsData: data })),
   },
   {
-    path: "home",
+    path: "/",
     element: <Home />,
   },
   {
@@ -89,7 +89,6 @@ const router = createBrowserRouter([
     element: <NotFound />,
   },
 ]);
-
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <RouterProvider router={router} />
