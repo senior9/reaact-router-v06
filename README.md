@@ -12,4 +12,4 @@ Statistics: We provide valuable insights and statistics to help you make informe
 
 FAQ: Our comprehensive FAQ section provides answers to common questions and clarifies any doubts you may have about our platform. From how to create a profile, to understanding the application process, to navigating the site's features, our FAQ is a helpful resource for getting the most out of our platform.
 
-User-friendly Interface: Our platform is designed with user-friendliness in mind. You can easily create a profile, upload your resume, and customize your job search preferences. Our intuitive navigation makes it easy to explore job listings, track your applications, and manage your profile information.
+User-friendly Interface: Our platform is designed with user-friendliness in mind. You can easily create a profile, upload your resume, and customize your job search preferences. Our intuitive navigation makes it easy to explore job listings, track your applications, and manage your profile information.# reaact-router-v06
